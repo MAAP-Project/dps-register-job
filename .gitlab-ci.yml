@@ -7,7 +7,8 @@ build_image:
 
   script:
     - VERDI_IMAGE=hysds/verdi:v4.1.0-beta.3
-    - docker run -u ${UID} -v /var/run/docker.sock:/var/run/docker.sock -v ${PWD}:${PWD} -w ${PWD} --entrypoint /bin/bash ${VERDI_IMAGE} build.sh
+    - DOCKER_GID=$(getent group docker | cut -d: -f3)
+    - docker run -u ${UID}:${DOCKER_GID} -v /var/run/docker.sock:/var/run/docker.sock:ro -v ${PWD}:${PWD} -w ${PWD} ${VERDI_IMAGE} ${PWD}/build.sh
 
   tags:
     - shell
