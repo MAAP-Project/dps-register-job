@@ -1,5 +1,5 @@
 
-image: hysds/verdi:v4.1.0-beta.3
+image: hysds/pge-base:v4.1.0-beta.3
 
 build_image:
   stage: build
