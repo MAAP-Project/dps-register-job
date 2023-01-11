@@ -1,0 +1,8 @@
+ARG VERDI_IMAGE=hysds/verdi:v4.1.0-beta.3
+FROM ${VERDI_IMAGE}
+
+USER ops
+RUN mkdir /home/ops/register-job
+ADD --chown=ops:ops . /home/ops/register-job/
+
+ENTRYPOINT ["/bin/bash", "/home/ops/register-job/build.sh"]

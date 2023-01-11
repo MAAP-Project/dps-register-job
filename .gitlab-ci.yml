@@ -1,14 +1,16 @@
-
-image: hysds/pge-base:v4.1.0-beta.3
-
 build_image:
   stage: build
 
   script:
     - docker images
+    - docker login -u gitlab-ci-token -p "$CI_JOB_TOKEN" "$CI_REGISTRY"
+    - VERDI_IMAGE=hysds/verdi:v4.1.0-beta.3
+    - IMAGE_NAME="$CI_REGISTRY_IMAGE":"$CI_COMMIT_REF_NAME"
+    - docker build -t ${IMAGE_NAME} -f Dockerfile.register-job .
+    - docker push ${IMAGE_NAME}
 
   tags:
-    - hysds
+    - shell
 
   only:
    - main
