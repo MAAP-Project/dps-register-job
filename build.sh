@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
-
-set -ex
-
+set -e
 VERDI_HOME=/home/ops/verdi
 source ${VERDI_HOME}/bin/activate
 export SKIP_PUBLISH="noskip"
+source ${PWD}/config.txt
 isSet=1
 for var in S3_CODE_BUCKET MOZART_URL GRQ_REST_URL
 do
