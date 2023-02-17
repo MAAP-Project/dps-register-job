@@ -1,0 +1,1 @@
+{"label": "", "submission_type": "individual", "params": [{"name": "input_atl03", "from": "submitter", "type": "text"}, {"name": "input_atl08", "from": "submitter", "type": "text"}, {"name": "output", "from": "submitter", "type": "text"}], "soft_time_limit": 86400, "time_limit": 86400}
