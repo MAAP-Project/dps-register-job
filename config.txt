@@ -1,5 +1,5 @@
 BASE_IMAGE_NAME=mas.ops.maap-project.org/root/ade-base-images/vanilla:latest
-REPO_URL_WITH_TOKEN=https://repo.maap-project.org/root/dps-unit-test.git
+REPO_URL_WITH_TOKEN=https://repo.maap-project.org/bsatoriu/dps-unit-test.git
 REPO_NAME=dps-unit-test
 BRANCH=main
 GRQ_REST_URL=https://ec2-34-219-15-103.us-west-2.compute.amazonaws.com:8878/api/v0.1

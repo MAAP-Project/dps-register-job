@@ -1,1 +1,1 @@
-{"repo_url": "https://gitlab-ci-token:$TOKEN@repo.maap-project.org/root/dps-unit-test.git", "repo_name": "dps-unit-test", "docker_file_url": "mas.ops.maap-project.org/root/ade-base-images/vanilla:latest", "path_to_dockerfile": null}
+{"repo_url": "https://gitlab-ci-token:$TOKEN@repo.maap-project.org/bsatoriu/dps-unit-test.git", "repo_name": "dps-unit-test", "docker_file_url": "mas.ops.maap-project.org/root/ade-base-images/vanilla:latest", "path_to_dockerfile": null}
