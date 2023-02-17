@@ -1,4 +1,4 @@
-BASE_IMAGE_NAME=mas.ops.maap-project.org/root/jupyter-image/vanilla:develop
+BASE_IMAGE_NAME=mas.dit.maap-project.org/root/maap-workspaces/base_images/vanilla:dit
 REPO_URL_WITH_TOKEN=https://repo.maap-project.org/bsatoriu/dps-unit-test.git
 REPO_NAME=dps-unit-test
 BRANCH=main
