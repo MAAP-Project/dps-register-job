@@ -1,1 +1,0 @@
-{"label": "DPS Unit Test", "submission_type": "individual", "params": [{"name": "input_file_to_download", "from": "submitter", "type": "text"}], "soft_time_limit": 86400, "time_limit": 86400}
