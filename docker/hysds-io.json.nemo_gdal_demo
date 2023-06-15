@@ -1,0 +1,1 @@
+{"label": "GDAL Translate demo", "submission_type": "individual", "params": [{"name": "input_tif", "from": "submitter", "type": "text", "default": ""}, {"name": "output_tif_name", "from": "submitter", "type": "text", "default": ""}, {"name": "outsize_value", "from": "submitter", "type": "text", "default": "10"}], "soft_time_limit": 86400, "time_limit": 86400}
