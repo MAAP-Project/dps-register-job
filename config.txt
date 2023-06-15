@@ -1,5 +1,5 @@
-BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.0.1
-REPO_URL_WITH_TOKEN=https://repo.maap-project.org/sshah/gdal-hello-world.git
+BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/jupyterlab3/vanilla:v3.0.1
+REPO_URL_WITH_TOKEN=https://repo.maap-project.org/sshah/gdal-hello-world
 REPO_NAME=gdal-hello-world
 BRANCH=main
 GRQ_REST_URL=http://10.46.8.137:8878/api/v0.1
