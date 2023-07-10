@@ -1,1 +1,1 @@
-{"label": "Test version of S1 RTC algorithm", "submission_type": "individual", "params": [{"name": "", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
+{"label": "Test version of S1 RTC algorithm", "submission_type": "individual", "params": [{"name": "in_file", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
