@@ -10,7 +10,8 @@ def get_info_from_job():
         job_type_info = str(job.get("type")).split(":")  # example job-s1_orbit_crawler:release-20190313
         algo_name = job_type_info[0].replace("job-", "")
         algo_version = job_type_info[1]
-        return {"username": username, "algorithm_name": algo_name, "algorithm_version": algo_version}
+        tag = job.get("tag", "null-tag")
+        return {"username": username, "algorithm_name": algo_name, "algorithm_version": algo_version, "tag": tag}
 
 
 def generate_dataset_file(dataset_name):
