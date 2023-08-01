@@ -1,1 +1,0 @@
-{"command": "/app/dps_wrapper.sh 'python /app/dps-unit-test/write_log_file_for_triage.py'", "disk_usage": "5GB", "imported_worker_files": {"$HOME/.netrc": "/home/ops/.netrc", "$HOME/.aws": "/home/ops/.aws", "/tmp": ["/tmp", "rw"]}, "post": ["hysds.triage.triage"], "recommended-queues": ["maap-dps-worker-8gb"], "params": [], "soft_time_limit": 86400, "time_limit": 86400}
