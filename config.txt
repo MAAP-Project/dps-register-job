@@ -1,4 +1,4 @@
-BASE_IMAGE_NAME=# NASA Container Image URL for DPS jobs mas.maap-project.org/root/maap-workspaces/jupyterlab3/vanilla:v3.0.1
+BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/jupyterlab3/vanilla:v3.0.1
 REPO_URL_WITH_TOKEN=https://repo.maap-project.org/arojearthdata/download-gedi.git
 REPO_NAME=download-gedi
 BRANCH=main
