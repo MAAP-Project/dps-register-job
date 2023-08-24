@@ -1,4 +1,4 @@
-BASE_IMAGE_NAME=mas.maap-project.org:5000/root/ade-base-images/vanilla:latest
+BASE_IMAGE_NAME=mas.dit.maap-project.org/root/maap-workspaces/base_images/eis_feds:42644eb
 REPO_URL_WITH_TOKEN=https://repo.maap-project.org/gcorradini/fireatlas_nrt.git
 REPO_NAME=fireatlas_nrt
 BRANCH=eli_global_boreal_snap_only
