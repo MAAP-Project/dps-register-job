@@ -1,4 +1,4 @@
-BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/rgedi:v3.1.0
+BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.1.0
 REPO_URL_WITH_TOKEN=https://repo.ops.maap-project.org/lduncanson/biomass_harmonization.git
 REPO_NAME=biomass_harmonization
 BRANCH=IPCC_classes
