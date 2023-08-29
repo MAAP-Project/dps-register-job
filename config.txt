@@ -7,4 +7,4 @@ MAAP_API_URL=https://api.maap-project.org/api
 MOZART_URL=https://10.46.9.177/mozart/api/v0.1
 S3_CODE_BUCKET=s3://s3.amazonaws.com/maap-ops-registry/
 
-BUILD_CMD=biomass_harmonization/country_summaries/IPCC_classes_DPS/build_command_main.sh
+BUILD_CMD=biomass_harmonization/country_summaries/IPCC_classes_DPS/build_command_main_ADE.sh
