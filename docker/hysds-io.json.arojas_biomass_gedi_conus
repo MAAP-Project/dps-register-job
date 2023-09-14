@@ -1,1 +1,1 @@
-{"label": "Biomass estimation using GEDI data for CONUS", "submission_type": "individual", "params": [{"name": "L1B_URL", "from": "submitter", "type": "text", "default": ""}, {"name": "L2A_URL", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
+{"label": "Biomass estimation using GEDI data", "submission_type": "individual", "params": [{"name": "L1B_URL", "from": "submitter", "type": "text", "default": ""}, {"name": "L2A_URL", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
