@@ -4,6 +4,7 @@ build_image:
   before_script:
     - docker info
     - docker inspect -f '{{.State.Running}}' registry
+    - docker login -u $CI_DEPLOY_USER -p $CI_DEPLOY_PASSWORD $CI_REGISTRY
 
   script:
     - VERDI_IMAGE=mas.maap-project.org/root/register-job-hysds-v4/maap-hysds-verdi:v4.1.0-beta.3
