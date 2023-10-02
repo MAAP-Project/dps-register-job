@@ -1,5 +1,5 @@
 BASE_IMAGE_NAME=mas.dit.maap-project.org/root/maap-workspaces/base_images/eis_feds:42644eb
-REPO_URL_WITH_TOKEN=https://repo.ops.maap-project.org/eorland_gee/fireatlas_nrt.git
+REPO_URL_WITH_TOKEN=https://repo.maap-project.org/gcorradini/fireatlas_nrt.git
 REPO_NAME=fireatlas_nrt
 BRANCH=eli_global_boreal_largefire_only_jan_start
 GRQ_REST_URL=http://10.46.10.167:8878/api/v0.1
