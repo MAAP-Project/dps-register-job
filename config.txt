@@ -1,8 +1,10 @@
-BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.1.0
-REPO_URL_WITH_TOKEN=https://github.com/bsatoriu/dps-impersonation-test.git
-REPO_NAME=dps-impersonation-test
-BRANCH=main
+BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.0.1
+REPO_URL_WITH_TOKEN=https://github.com/MAAP-Project/gedi-subsetter.git
+REPO_NAME=gedi-subsetter
+BRANCH=0.6.1
 GRQ_REST_URL=http://10.46.10.167:8878/api/v0.1
 MAAP_API_URL=https://api.maap-project.org/api
 MOZART_URL=https://10.46.9.231/mozart/api/v0.1
 S3_CODE_BUCKET=s3://s3.amazonaws.com/maap-ops-registry/
+
+BUILD_CMD=gedi-subsetter/build.sh
