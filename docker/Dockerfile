@@ -4,8 +4,11 @@ FROM ${BASE_IMAGE_NAME}
 ARG REPO_URL_WITH_TOKEN
 ARG REPO_NAME
 ARG BRANCH
+ARG DPS_MACHINE_TOKEN
 ARG BUILD_CMD='$(echo "NO BUILD CMD SPECIFIFED")'
 USER root
+
+RUN apt-get update && apt-get install curl jq -y
 
 RUN mkdir /app
 WORKDIR /app
@@ -25,6 +28,7 @@ COPY dps_wrapper.py /app/dps_wrapper.py
 COPY dps_wrapper.sh /app/dps_wrapper.sh
 COPY pre_dps_wrapper.py /app/pre_dps_wrapper.py
 COPY get_param.py /app/get_param.py
+COPY get_username.py /app/get_username.py
 
 # copy over docker stats shim utility
 COPY docker_stats/docker-stats-on-exit-shim /docker-stats-on-exit-shim
@@ -41,6 +45,7 @@ RUN chmod 777 /docker-stats-on-exit-shim /entrypoint-pge-with-stats.sh
 ARG CACHE_BUST
 USER root
 ENV CACHE_BUST=${CACHE_BUST}
+ENV DPS_MACHINE_TOKEN=${DPS_MACHINE_TOKEN}
 RUN git clone ${REPO_URL_WITH_TOKEN} && \
     cd ${REPO_NAME} && \
     git checkout ${BRANCH}
