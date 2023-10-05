@@ -1,1 +1,0 @@
-{"label": "dps-impersonation-test-4", "submission_type": "individual", "params": [{"name": "param1", "from": "submitter", "type": "text", "default": ""}, {"name": "param2", "from": "submitter", "type": "text", "default": ""}, {"name": "output", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
