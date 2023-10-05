@@ -17,7 +17,7 @@ export GDAL_DATA=/opt/conda/share/gdal
 set -ex
 
 USERNAME=$(python /app/get_username.py)
-export MAAP_PGT=$(curl -sb -H "Accept: application/json" -H "Content-Type: application/json" -H "dps-token: $DPS_MACHINE_TOKEN" https://api.dit.maap-project.org/api/members/$USERNAME | jq -r '.session_key')
+export MAAP_PGT=$(curl -sb -H "Accept: application/json" -H "Content-Type: application/json" -H "dps-token: $DPS_MACHINE_TOKEN" https://api.maap-project.org/api/members/$USERNAME | jq -r '.session_key')
 unset DPS_MACHINE_TOKEN
 
 ${USER_SCRIPT} "${@:2}" || (cp _stderr.txt _alt_traceback.txt && exit 1)
