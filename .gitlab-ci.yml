@@ -9,7 +9,7 @@ build_image:
   script:
     - VERDI_IMAGE=mas.maap-project.org/root/register-job-hysds-v4/maap-hysds-verdi:v4.1.0-beta.3
     - DOCKER_GID=$(getent group docker | cut -d ':' -f3)
-    - docker run -u ${UID}:${DOCKER_GID} -v /var/run/docker.sock:/var/run/docker.sock:ro -v ${PWD}:${PWD} -w ${PWD} ${VERDI_IMAGE} ${PWD}/build.sh
+    - docker run --pull=always -u ${UID}:${DOCKER_GID} -v /var/run/docker.sock:/var/run/docker.sock:ro -v ${PWD}:${PWD} -w ${PWD} ${VERDI_IMAGE} ${PWD}/build.sh
 
   tags:
     - shell
