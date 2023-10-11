@@ -1,4 +1,4 @@
-BASE_IMAGE_NAME=https://mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.0.1
+BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.1.1
 REPO_URL_WITH_TOKEN=https://github.com/MAAP-Project/dps_tutorial.git
 REPO_NAME=dps_tutorial
 BRANCH=main
