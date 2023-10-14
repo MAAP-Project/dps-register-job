@@ -1,1 +1,1 @@
-{"label": "run", "submission_type": "individual", "params": [{"name": "input", "from": "submitter", "type": "text", "default": ""}, {"name": "out", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
+{"label": "run", "submission_type": "individual", "params": [{"name": "input", "from": "submitter", "type": "text", "default": ""}, {"name": "size", "from": "submitter", "type": "text", "default": ""}, {"name": "out", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
