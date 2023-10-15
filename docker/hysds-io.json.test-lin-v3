@@ -1,1 +1,0 @@
-{"label": "asdf", "submission_type": "individual", "params": [{"name": "input", "from": "submitter", "type": "text", "default": ""}, {"name": "out_tif", "from": "submitter", "type": "text", "default": ""}, {"name": "out_value", "from": "submitter", "type": "text", "default": "80"}], "soft_time_limit": 86400, "time_limit": 86400}
