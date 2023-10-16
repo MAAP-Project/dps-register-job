@@ -1,1 +1,0 @@
-{"label": "translate tif", "submission_type": "individual", "params": [{"name": "input_tif", "from": "submitter", "type": "text", "default": ""}, {"name": "out_tif", "from": "submitter", "type": "text", "default": ""}, {"name": "percent", "from": "submitter", "type": "text", "default": "20"}], "soft_time_limit": 86400, "time_limit": 86400}
