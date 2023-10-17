@@ -1,0 +1,1 @@
+{"label": "test change container", "submission_type": "individual", "params": [{"name": "tif_input", "from": "submitter", "type": "text", "default": ""}, {"name": "tif_output", "from": "submitter", "type": "text", "default": ""}, {"name": "size_out", "from": "submitter", "type": "text", "default": "10"}], "soft_time_limit": 86400, "time_limit": 86400}
