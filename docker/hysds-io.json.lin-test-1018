@@ -1,0 +1,1 @@
+{"label": "test-remove-echo", "submission_type": "individual", "params": [{"name": "in_tif", "from": "submitter", "type": "text", "default": ""}, {"name": "out_tif", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}

@@ -1,8 +1,10 @@
-BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.1.1
-REPO_URL_WITH_TOKEN=https://github.com/MAAP-Project/example-dps-daac-access.git
-REPO_NAME=example-dps-daac-access
+BASE_IMAGE_NAME=https://mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.0.1
+REPO_URL_WITH_TOKEN=https://repo.maap-project.org/hopebear_ecu/testjobs.git
+REPO_NAME=testjobs
 BRANCH=main
 GRQ_REST_URL=http://10.46.10.167:8878/api/v0.1
 MAAP_API_URL=https://api.maap-project.org/api
 MOZART_URL=https://10.46.9.231/mozart/api/v0.1
 S3_CODE_BUCKET=s3://s3.amazonaws.com/maap-ops-registry/
+
+BUILD_CMD=testjobs/build-env.sh
