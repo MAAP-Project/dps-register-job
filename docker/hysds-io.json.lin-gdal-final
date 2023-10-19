@@ -1,0 +1,1 @@
+{"label": "final-test", "submission_type": "individual", "params": [{"name": "input_test", "from": "submitter", "type": "text", "default": ""}, {"name": "output_test", "from": "submitter", "type": "text", "default": ""}, {"name": "size", "from": "submitter", "type": "text", "default": "20"}], "soft_time_limit": 86400, "time_limit": 86400}
