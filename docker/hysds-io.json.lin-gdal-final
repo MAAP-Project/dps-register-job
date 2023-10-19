@@ -1,1 +1,1 @@
-{"label": "lin-gdal-final", "submission_type": "individual", "params": [{"name": "input_file", "from": "submitter", "type": "text", "default": ""}, {"name": "out", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
+{"label": "test input", "submission_type": "individual", "params": [{"name": "input_my", "from": "submitter", "type": "text", "default": ""}, {"name": "output_my", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
