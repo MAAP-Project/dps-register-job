@@ -1,4 +1,4 @@
-BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/jupyterlab3/vanilla:v2.0.0
+BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.0.0
 REPO_URL_WITH_TOKEN=https://repo.maap-project.org/hopebear_ecu/testjobs.git
 REPO_NAME=testjobs
 BRANCH=main
@@ -7,4 +7,4 @@ MAAP_API_URL=https://api.maap-project.org/api
 MOZART_URL=https://10.46.9.231/mozart/api/v0.1
 S3_CODE_BUCKET=s3://s3.amazonaws.com/maap-ops-registry/
 
-BUILD_CMD=testjobs/run_gdal.sh
+BUILD_CMD=testjobs/build-env.sh
