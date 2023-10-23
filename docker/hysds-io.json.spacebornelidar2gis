@@ -1,0 +1,1 @@
+{"label": "convert lidar h5 to gis gpkg format", "submission_type": "individual", "params": [{"name": "input_h5", "from": "submitter", "type": "text", "default": ""}, {"name": "output_gpkg", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
