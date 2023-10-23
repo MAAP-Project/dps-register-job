@@ -1,0 +1,1 @@
+{"label": "Run RTC 0.4 via s3 access", "submission_type": "individual", "params": [{"name": "in_file", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
