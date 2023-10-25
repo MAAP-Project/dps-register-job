@@ -1,0 +1,1 @@
+{"label": "DPS Tutorial for gdal translate", "submission_type": "individual", "params": [{"name": "input_file", "from": "submitter", "type": "text", "default": ""}, {"name": "output_file_name", "from": "submitter", "type": "text", "default": ""}, {"name": "outsize", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}

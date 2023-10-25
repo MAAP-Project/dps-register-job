@@ -1,8 +1,10 @@
-BASE_IMAGE_NAME=mas.dit.maap-project.org/root/maap-workspaces/base_images/eis_feds:42644eb
-REPO_URL_WITH_TOKEN=https://repo.maap-project.org/gcorradini/fireatlas_nrt.git
-REPO_NAME=fireatlas_nrt
-BRANCH=0.99.2
+BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.1.1
+REPO_URL_WITH_TOKEN=https://github.com/MAAP-Project/dps_tutorial.git
+REPO_NAME=dps_tutorial
+BRANCH=main
 GRQ_REST_URL=http://10.46.10.167:8878/api/v0.1
 MAAP_API_URL=https://api.maap-project.org/api
 MOZART_URL=https://10.46.9.231/mozart/api/v0.1
 S3_CODE_BUCKET=s3://s3.amazonaws.com/maap-ops-registry/
+
+BUILD_CMD=dps_tutorial/gdal_wrapper/build-env.sh
