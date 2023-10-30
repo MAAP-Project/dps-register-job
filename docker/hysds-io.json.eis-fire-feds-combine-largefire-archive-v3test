@@ -1,1 +1,0 @@
-{"label": "Combine FEDS Largefire data into a single file.", "submission_type": "individual", "params": [{"name": "folder_name", "from": "submitter", "type": "text"}, {"name": "start", "from": "submitter", "type": "text"}, {"name": "end", "from": "submitter", "type": "text"}], "soft_time_limit": 86400, "time_limit": 86400}
