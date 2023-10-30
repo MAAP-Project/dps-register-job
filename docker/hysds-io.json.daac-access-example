@@ -1,0 +1,1 @@
+{"label": "example DAAC access in DPS", "submission_type": "individual", "params": [{"name": "s3_path", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
