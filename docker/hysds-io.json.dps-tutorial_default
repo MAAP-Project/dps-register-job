@@ -1,0 +1,1 @@
+{"label": "A test alg to test DPS", "submission_type": "individual", "params": [{"name": "input_file", "from": "submitter", "type": "text", "default": ""}, {"name": "output_file_name", "from": "submitter", "type": "text"}, {"name": "outsize", "from": "submitter", "type": "text", "default": "10"}], "soft_time_limit": 86400, "time_limit": 86400}
