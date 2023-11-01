@@ -1,10 +1,10 @@
-BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.1.1
-REPO_URL_WITH_TOKEN=https://github.com/rtapella/dps_tutorial_rt.git
-REPO_NAME=dps_tutorial_rt
-BRANCH=main
+BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.1.0
+REPO_URL_WITH_TOKEN=https://repo.maap-project.org/lduncanson/biomass_harmonization.git
+REPO_NAME=biomass_harmonization
+BRANCH=IPCC_classes_ADE
 GRQ_REST_URL=http://10.46.10.167:8878/api/v0.1
 MAAP_API_URL=https://api.maap-project.org/api
 MOZART_URL=https://10.46.9.231/mozart/api/v0.1
 S3_CODE_BUCKET=s3://s3.amazonaws.com/maap-ops-registry/
 
-BUILD_CMD=dps_tutorial_rt/gdal_wrapper/build-env.sh
+BUILD_CMD=biomass_harmonization/country_summaries/IPCC_classes_DPS/build_command_main_ADE.sh
