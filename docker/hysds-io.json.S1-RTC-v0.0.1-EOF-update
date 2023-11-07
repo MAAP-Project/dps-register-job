@@ -1,1 +1,0 @@
-{"label": "S1 RTC with updated orbit file access", "submission_type": "individual", "params": [{"name": "in_file", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
