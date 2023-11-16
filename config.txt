@@ -1,4 +1,4 @@
-BASE_IMAGE_NAME=https://mas.maap-project.org:5000/root/base-images/r
+BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/r
 REPO_URL_WITH_TOKEN=https://github.com/lauraduncanson/icesat2_boreal.git
 REPO_NAME=icesat2_boreal
 BRANCH=main
