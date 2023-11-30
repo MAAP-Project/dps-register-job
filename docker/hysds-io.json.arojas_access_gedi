@@ -1,1 +1,1 @@
-{"label": "Access GEDI data", "submission_type": "individual", "params": [{"name": "L1B_URL", "from": "submitter", "type": "text", "default": ""}, {"name": "L2A_URL", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
+{"label": "Access GEDI Data", "submission_type": "individual", "params": [{"name": "L1B_URL", "from": "submitter", "type": "text", "default": ""}, {"name": "L2A_URL", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
