@@ -1,10 +1,10 @@
-BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/r:v3.0.1
-REPO_URL_WITH_TOKEN=https://github.com/lauraduncanson/icesat2_boreal.git
-REPO_NAME=icesat2_boreal
-BRANCH=boreal_agb_2023_v3
+BASE_IMAGE_NAME=https://mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.0.1
+REPO_URL_WITH_TOKEN=https://repo.maap-project.org/hopebear_ecu/atl03_data.git
+REPO_NAME=atl03_data
+BRANCH=main
 GRQ_REST_URL=http://10.46.10.167:8878/api/v0.1
 MAAP_API_URL=https://api.maap-project.org/api
 MOZART_URL=https://10.46.9.231/mozart/api/v0.1
 S3_CODE_BUCKET=s3://s3.amazonaws.com/maap-ops-registry/
 
-BUILD_CMD=icesat2_boreal/dps/build_command_main.sh
+BUILD_CMD=build.sh
