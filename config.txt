@@ -1,4 +1,4 @@
-BASE_IMAGE_NAME=https://mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.0.1
+BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.0.0
 REPO_URL_WITH_TOKEN=https://repo.maap-project.org/hopebear_ecu/dps-unit-test-lin.git
 REPO_NAME=dps-unit-test-lin
 BRANCH=main
@@ -7,4 +7,4 @@ MAAP_API_URL=https://api.maap-project.org/api
 MOZART_URL=https://10.46.9.231/mozart/api/v0.1
 S3_CODE_BUCKET=s3://s3.amazonaws.com/maap-ops-registry/
 
-BUILD_CMD=atl03_data/build.sh
+BUILD_CMD=dps-unit-test-lin/build-env.sh
