@@ -1,1 +1,1 @@
-{"label": "update input choice", "submission_type": "individual", "params": [{"name": "f_input", "from": "submitter", "type": "text", "default": ""}, {"name": "tilenumber", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
+{"label": "file upload, arguments", "submission_type": "individual", "params": [{"name": "f_input", "from": "submitter", "type": "text", "default": ""}, {"name": "tilenumber", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
