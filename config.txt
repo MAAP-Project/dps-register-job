@@ -1,10 +1,10 @@
 BASE_IMAGE_NAME=mas.dit.maap-project.org/root/maap-workspaces/base_images/vanilla:main
-REPO_URL_WITH_TOKEN=https://github.com/grallewellyn/dps-tutorial.git
-REPO_NAME=dps-tutorial
-BRANCH=main
+REPO_URL_WITH_TOKEN=https://github.com/MAAP-Project/gedi-subsetter.git
+REPO_NAME=gedi-subsetter
+BRANCH=0.6.2
 GRQ_REST_URL=http://10.46.10.167:8878/api/v0.1
 MAAP_API_URL=https://api.maap-project.org/api
 MOZART_URL=https://10.46.9.231/mozart/api/v0.1
 S3_CODE_BUCKET=s3://s3.amazonaws.com/maap-ops-registry/
 
-BUILD_CMD=dps-tutorial/gdal_wrapper/build-env.sh
+BUILD_CMD=gedi-subsetter/build.sh
