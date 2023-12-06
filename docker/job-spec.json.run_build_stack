@@ -1,1 +1,0 @@
-{"command": "/app/dps_wrapper.sh '/app/icesat2_boreal/dps/alg_3-1-3/run.sh'", "disk_usage": "16GB", "imported_worker_files": {"$HOME/.netrc": "/home/ops/.netrc", "$HOME/.aws": "/home/ops/.aws", "/tmp": ["/tmp", "rw"]}, "post": ["hysds.triage.triage"], "recommended-queues": ["maap-dps-worker-16gb"], "params": [], "soft_time_limit": 86400, "time_limit": 86400}
