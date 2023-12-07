@@ -1,8 +1,10 @@
-BASE_IMAGE_NAME=public.ecr.aws/w1q7j9l2/imi-docker-image:latest
-REPO_URL_WITH_TOKEN=https://github.com/geoschem/integrated_methane_inversion.git
-REPO_NAME=integrated_methane_inversion
-BRANCH=dev
+BASE_IMAGE_NAME=mas.dit.maap-project.org/root/maap-workspaces/base_images/vanilla:main
+REPO_URL_WITH_TOKEN=https://github.com/rtapella/dps_tutorial_rt.git
+REPO_NAME=dps_tutorial_rt
+BRANCH=main
 GRQ_REST_URL=http://10.46.10.167:8878/api/v0.1
 MAAP_API_URL=https://api.maap-project.org/api
 MOZART_URL=https://10.46.9.231/mozart/api/v0.1
 S3_CODE_BUCKET=s3://s3.amazonaws.com/maap-ops-registry/
+
+BUILD_CMD=dps_tutorial_rt/gdal_wrapper/build-env.sh
