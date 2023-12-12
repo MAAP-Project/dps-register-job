@@ -1,0 +1,1 @@
+{"label": "is2_query_lin_v0", "submission_type": "individual", "params": [{"name": "tile_num", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
