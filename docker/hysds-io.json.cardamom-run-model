@@ -1,0 +1,1 @@
+{"label": "", "submission_type": "individual", "params": [{"name": "input_file", "from": "submitter", "type": "text", "default": "https://raw.githubusercontent.com/ddalton-jpl/CARDAMOM-TEST/main/input/PROJSCRIPT_CARDAMOM_CMSFLUX_PRIORS_JUL23_V1_1942.cbf.nc"}], "soft_time_limit": 86400, "time_limit": 86400}
