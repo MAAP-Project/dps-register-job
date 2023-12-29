@@ -1,4 +1,4 @@
-BASE_IMAGE_NAME=mas.dit.maap-project.org/root/maap-workspaces/base_images/vanilla:main
+BASE_IMAGE_NAME=mas.maap-project.org/root/maap-workspaces/base_images/vanilla:v3.1.3
 REPO_URL_WITH_TOKEN=https://repo.maap-project.org/bnarayanarao/insar_forest_height.git
 REPO_NAME=insar_forest_height
 BRANCH=main
