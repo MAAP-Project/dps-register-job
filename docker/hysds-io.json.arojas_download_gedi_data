@@ -1,0 +1,1 @@
+{"label": "Download GEDI data by passing 2 file urls at a time", "submission_type": "individual", "params": [{"name": "L1B_URL", "from": "submitter", "type": "text", "default": ""}, {"name": "L2A_URL", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
