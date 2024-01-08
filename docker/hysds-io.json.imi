@@ -1,1 +1,0 @@
-{"label": "", "submission_type": "individual", "params": [{"name": "environment.env", "from": "submitter", "type": "text", "default": ""}], "soft_time_limit": 86400, "time_limit": 86400}
