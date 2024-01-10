@@ -4,8 +4,11 @@ FROM ${BASE_IMAGE_NAME}
 ARG REPO_URL_WITH_TOKEN
 ARG REPO_NAME
 ARG BRANCH
+ARG DPS_MACHINE_TOKEN
 ARG BUILD_CMD='$(echo "NO BUILD CMD SPECIFIFED")'
 USER root
+
+RUN apt-get update && apt-get install curl jq -y
 
 RUN mkdir /app
 WORKDIR /app
@@ -18,13 +21,14 @@ WORKDIR /app
 RUN git config --global http.sslverify false
 
 # https://docs.anaconda.com/anaconda/install/multi-user/?highlight=chgrp#multi-user-anaconda-installation-on-linux
-RUN groupadd -g 1003 ops && useradd --uid 1002 --gid 1003 --create-home ops && \
+RUN groupadd -g 1003 ops && useradd --uid 1001 --gid 1003 --create-home ops && \
     chgrp -R ops /opt/conda && chmod -R 770 /opt/conda
 
 COPY dps_wrapper.py /app/dps_wrapper.py
 COPY dps_wrapper.sh /app/dps_wrapper.sh
 COPY pre_dps_wrapper.py /app/pre_dps_wrapper.py
 COPY get_param.py /app/get_param.py
+COPY get_username.py /app/get_username.py
 
 # copy over docker stats shim utility
 COPY docker_stats/docker-stats-on-exit-shim /docker-stats-on-exit-shim
@@ -37,10 +41,11 @@ COPY docker_stats/entrypoint-pge-with-stats.sh /entrypoint-pge-with-stats.sh
 RUN chmod 777 /docker-stats-on-exit-shim /entrypoint-pge-with-stats.sh
 
 # set entrypoint
-ENTRYPOINT ["/entrypoint-pge-with-stats.sh"]
+# ENTRYPOINT ["/entrypoint-pge-with-stats.sh"]
 ARG CACHE_BUST
 USER root
 ENV CACHE_BUST=${CACHE_BUST}
+ENV DPS_MACHINE_TOKEN=${DPS_MACHINE_TOKEN}
 RUN git clone ${REPO_URL_WITH_TOKEN} && \
     cd ${REPO_NAME} && \
     git checkout ${BRANCH}

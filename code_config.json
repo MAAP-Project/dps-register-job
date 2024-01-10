@@ -1,1 +1,1 @@
-{"repo_url": "https://gitlab-ci-token:$TOKEN@repo.ops.maap-project.org/icesat2_boreal/icesat2_boreal.git", "repo_name": "icesat2_boreal", "docker_file_url": "mas.dit.maap-project.org/root/maap-workspaces/base_images/vanilla:dit", "path_to_dockerfile": null}
+{"repo_url": "https://gitlab-ci-token:$TOKEN@repo.dit.maap-project.org/root/dps-unit-test.git", "repo_name": "dps-unit-test", "docker_file_url": "mas.maap-project.org:5000/root/ade-base-images/vanilla:latest", "path_to_dockerfile": null}
